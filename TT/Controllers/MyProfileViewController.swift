@@ -1,14 +1,14 @@
 //
-//  HomeViewController.swift
+//  MyProfileViewController.swift
 //  TT
 //
-//  Created by 이호찬 on 24/01/2019.
+//  Created by Tak on 27/01/2019.
 //  Copyright © 2019 MashUpTT. All rights reserved.
 //
 
 import UIKit
 
-class HomeViewController: UIViewController {
+class MyProfileViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()

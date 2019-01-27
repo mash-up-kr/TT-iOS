@@ -10,12 +10,17 @@
 		30A02C1221E8628A0066EF8D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30A02C1121E8628A0066EF8D /* AppDelegate.swift */; };
 		30A02C1921E8628C0066EF8D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 30A02C1821E8628C0066EF8D /* Assets.xcassets */; };
 		30A02C1C21E8628C0066EF8D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 30A02C1A21E8628C0066EF8D /* LaunchScreen.storyboard */; };
-		30A7684321F9B32A00DF376D /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30A7684221F9B32A00DF376D /* HomeViewController.swift */; };
+		30A7684321F9B32A00DF376D /* HomeCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30A7684221F9B32A00DF376D /* HomeCollectionViewController.swift */; };
 		30A7684521F9B33600DF376D /* ToDoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30A7684421F9B33600DF376D /* ToDoViewController.swift */; };
 		30A7684721F9B34300DF376D /* ToDoDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30A7684621F9B34300DF376D /* ToDoDetailViewController.swift */; };
 		30A7684921F9B36C00DF376D /* Home.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 30A7684821F9B36C00DF376D /* Home.storyboard */; };
 		30A7684D21F9B3B100DF376D /* ToDo.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 30A7684C21F9B3B100DF376D /* ToDo.storyboard */; };
 		30A7684F21F9B3C200DF376D /* ToDoDetail.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 30A7684E21F9B3C200DF376D /* ToDoDetail.storyboard */; };
+		3BBAA6C321FD52C400861707 /* MyProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BBAA6C221FD52C400861707 /* MyProfileViewController.swift */; };
+		3BBAA6C621FD592C00861707 /* Project.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BBAA6C521FD592C00861707 /* Project.swift */; };
+		3BBAA6C921FD59B100861707 /* HomeCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BBAA6C821FD59B100861707 /* HomeCollectionViewCell.swift */; };
+		3BBAA6CC21FD951000861707 /* RemoteRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BBAA6CB21FD951000861707 /* RemoteRepository.swift */; };
+		3BBAA6CE21FD95B800861707 /* NetworkService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BBAA6CD21FD95B800861707 /* NetworkService.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,12 +29,17 @@
 		30A02C1821E8628C0066EF8D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		30A02C1B21E8628C0066EF8D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		30A02C1D21E8628C0066EF8D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		30A7684221F9B32A00DF376D /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		30A7684221F9B32A00DF376D /* HomeCollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeCollectionViewController.swift; sourceTree = "<group>"; };
 		30A7684421F9B33600DF376D /* ToDoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDoViewController.swift; sourceTree = "<group>"; };
 		30A7684621F9B34300DF376D /* ToDoDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDoDetailViewController.swift; sourceTree = "<group>"; };
 		30A7684821F9B36C00DF376D /* Home.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Home.storyboard; sourceTree = "<group>"; };
 		30A7684C21F9B3B100DF376D /* ToDo.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = ToDo.storyboard; sourceTree = "<group>"; };
 		30A7684E21F9B3C200DF376D /* ToDoDetail.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = ToDoDetail.storyboard; sourceTree = "<group>"; };
+		3BBAA6C221FD52C400861707 /* MyProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyProfileViewController.swift; sourceTree = "<group>"; };
+		3BBAA6C521FD592C00861707 /* Project.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Project.swift; sourceTree = "<group>"; };
+		3BBAA6C821FD59B100861707 /* HomeCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeCollectionViewCell.swift; sourceTree = "<group>"; };
+		3BBAA6CB21FD951000861707 /* RemoteRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemoteRepository.swift; sourceTree = "<group>"; };
+		3BBAA6CD21FD95B800861707 /* NetworkService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkService.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,24 +72,28 @@
 		30A02C1021E8628A0066EF8D /* TT */ = {
 			isa = PBXGroup;
 			children = (
-				30A02C1121E8628A0066EF8D /* AppDelegate.swift */,
+				3BBAA6CA21FD94E700861707 /* Network */,
+				3BBAA6C421FD592100861707 /* Model */,
 				30A7684B21F9B38800DF376D /* StoryBoard */,
-				30A7684A21F9B37600DF376D /* Controller */,
+				3BBAA6C721FD599300861707 /* Views */,
+				30A7684A21F9B37600DF376D /* Controllers */,
 				30A02C1821E8628C0066EF8D /* Assets.xcassets */,
+				30A02C1121E8628A0066EF8D /* AppDelegate.swift */,
 				30A02C1A21E8628C0066EF8D /* LaunchScreen.storyboard */,
 				30A02C1D21E8628C0066EF8D /* Info.plist */,
 			);
 			path = TT;
 			sourceTree = "<group>";
 		};
-		30A7684A21F9B37600DF376D /* Controller */ = {
+		30A7684A21F9B37600DF376D /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
-				30A7684221F9B32A00DF376D /* HomeViewController.swift */,
+				30A7684221F9B32A00DF376D /* HomeCollectionViewController.swift */,
+				3BBAA6C221FD52C400861707 /* MyProfileViewController.swift */,
 				30A7684421F9B33600DF376D /* ToDoViewController.swift */,
 				30A7684621F9B34300DF376D /* ToDoDetailViewController.swift */,
 			);
-			path = Controller;
+			path = Controllers;
 			sourceTree = "<group>";
 		};
 		30A7684B21F9B38800DF376D /* StoryBoard */ = {
@@ -90,6 +104,31 @@
 				30A7684E21F9B3C200DF376D /* ToDoDetail.storyboard */,
 			);
 			path = StoryBoard;
+			sourceTree = "<group>";
+		};
+		3BBAA6C421FD592100861707 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				3BBAA6C521FD592C00861707 /* Project.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		3BBAA6C721FD599300861707 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				3BBAA6C821FD59B100861707 /* HomeCollectionViewCell.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		3BBAA6CA21FD94E700861707 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				3BBAA6CB21FD951000861707 /* RemoteRepository.swift */,
+				3BBAA6CD21FD95B800861707 /* NetworkService.swift */,
+			);
+			path = Network;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -165,10 +204,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3BBAA6C921FD59B100861707 /* HomeCollectionViewCell.swift in Sources */,
+				3BBAA6C321FD52C400861707 /* MyProfileViewController.swift in Sources */,
 				30A7684521F9B33600DF376D /* ToDoViewController.swift in Sources */,
 				30A02C1221E8628A0066EF8D /* AppDelegate.swift in Sources */,
+				3BBAA6CE21FD95B800861707 /* NetworkService.swift in Sources */,
 				30A7684721F9B34300DF376D /* ToDoDetailViewController.swift in Sources */,
-				30A7684321F9B32A00DF376D /* HomeViewController.swift in Sources */,
+				3BBAA6CC21FD951000861707 /* RemoteRepository.swift in Sources */,
+				30A7684321F9B32A00DF376D /* HomeCollectionViewController.swift in Sources */,
+				3BBAA6C621FD592C00861707 /* Project.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
