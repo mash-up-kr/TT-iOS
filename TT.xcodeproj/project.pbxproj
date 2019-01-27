@@ -21,6 +21,10 @@
 		3BBAA6C921FD59B100861707 /* HomeCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BBAA6C821FD59B100861707 /* HomeCollectionViewCell.swift */; };
 		3BBAA6CC21FD951000861707 /* RemoteRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BBAA6CB21FD951000861707 /* RemoteRepository.swift */; };
 		3BBAA6CE21FD95B800861707 /* NetworkService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BBAA6CD21FD95B800861707 /* NetworkService.swift */; };
+		CB26B88521FE121600FC6E33 /* DetailContentsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB26B88421FE121600FC6E33 /* DetailContentsTableViewCell.swift */; };
+		CB26B88721FE122400FC6E33 /* DetailButtonTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB26B88621FE122400FC6E33 /* DetailButtonTableViewCell.swift */; };
+		CB26B88921FE125500FC6E33 /* DetailComentsHeaderTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB26B88821FE125500FC6E33 /* DetailComentsHeaderTableViewCell.swift */; };
+		CB26B88B21FE126600FC6E33 /* DetailComentsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB26B88A21FE126600FC6E33 /* DetailComentsTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -40,6 +44,10 @@
 		3BBAA6C821FD59B100861707 /* HomeCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeCollectionViewCell.swift; sourceTree = "<group>"; };
 		3BBAA6CB21FD951000861707 /* RemoteRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemoteRepository.swift; sourceTree = "<group>"; };
 		3BBAA6CD21FD95B800861707 /* NetworkService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkService.swift; sourceTree = "<group>"; };
+		CB26B88421FE121600FC6E33 /* DetailContentsTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailContentsTableViewCell.swift; sourceTree = "<group>"; };
+		CB26B88621FE122400FC6E33 /* DetailButtonTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailButtonTableViewCell.swift; sourceTree = "<group>"; };
+		CB26B88821FE125500FC6E33 /* DetailComentsHeaderTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailComentsHeaderTableViewCell.swift; sourceTree = "<group>"; };
+		CB26B88A21FE126600FC6E33 /* DetailComentsTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailComentsTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -118,6 +126,10 @@
 			isa = PBXGroup;
 			children = (
 				3BBAA6C821FD59B100861707 /* HomeCollectionViewCell.swift */,
+				CB26B88421FE121600FC6E33 /* DetailContentsTableViewCell.swift */,
+				CB26B88621FE122400FC6E33 /* DetailButtonTableViewCell.swift */,
+				CB26B88821FE125500FC6E33 /* DetailComentsHeaderTableViewCell.swift */,
+				CB26B88A21FE126600FC6E33 /* DetailComentsTableViewCell.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -207,11 +219,15 @@
 				3BBAA6C921FD59B100861707 /* HomeCollectionViewCell.swift in Sources */,
 				3BBAA6C321FD52C400861707 /* MyProfileViewController.swift in Sources */,
 				30A7684521F9B33600DF376D /* ToDoViewController.swift in Sources */,
+				CB26B88B21FE126600FC6E33 /* DetailComentsTableViewCell.swift in Sources */,
+				CB26B88721FE122400FC6E33 /* DetailButtonTableViewCell.swift in Sources */,
 				30A02C1221E8628A0066EF8D /* AppDelegate.swift in Sources */,
 				3BBAA6CE21FD95B800861707 /* NetworkService.swift in Sources */,
 				30A7684721F9B34300DF376D /* ToDoDetailViewController.swift in Sources */,
 				3BBAA6CC21FD951000861707 /* RemoteRepository.swift in Sources */,
 				30A7684321F9B32A00DF376D /* HomeCollectionViewController.swift in Sources */,
+				CB26B88921FE125500FC6E33 /* DetailComentsHeaderTableViewCell.swift in Sources */,
+				CB26B88521FE121600FC6E33 /* DetailContentsTableViewCell.swift in Sources */,
 				3BBAA6C621FD592C00861707 /* Project.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
